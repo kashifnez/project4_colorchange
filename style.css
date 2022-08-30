@@ -11,18 +11,22 @@
 .generate, .btn{
    height: 40vh;
    display: flex;
-   flex-flow: column;
    align-items: center;
    justify-content: center;
    border: 2px solid black;
 }
+
+.btn{
+  border: none;
+}
+
+
 body .btn{
   height: 40vh;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  border: none;
 }
 
 
