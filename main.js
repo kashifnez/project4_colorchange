@@ -8,7 +8,7 @@ const random_color = () => {
     const i = Math.floor(Math.random()*257);
     const j = Math.floor(Math.random()*257);
     const k = Math.floor(Math.random() * 257);
-    return `rgb(${i},${j},${k})`;
+    return `RGB(${i},${j},${k})`;
   };
   
   

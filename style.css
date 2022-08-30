@@ -27,6 +27,7 @@ body .btn{
   flex-flow: column;
   align-items: center;
   justify-content: center;
+
 }
 
 
@@ -37,13 +38,27 @@ button{
   padding: 1.5rem;
   font-size: 2.2rem;
   text-align: center;
-  background-color: indianred;
-  color: black;
+  background-color: #5F9EA0;
+  color: #F0FFFF;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 body h1{
   background-color: whitesmoke;
-  font-size: 2.1rem !important;
+  font-size: 2.1rem ;
   text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+.generate p{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  border: 2px solid black;
+  height: 7vh;
+  border-radius: 5px;
+  background-color: #999999;
+  color: #262626;
+  justify-content: center;
 }
