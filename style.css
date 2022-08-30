@@ -1,0 +1,31 @@
+*{
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+.generate, .btn{
+   height: 15rem;
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: center;
+   border: 0.1px solid indianred;
+}
+body .btn{
+  height: 7rem;
+  margin: 1rem;
+  background-color: ghostwhite;
+}
+
+
+button{
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: indianred;
+  color: black;
+}
+body h1{
+  font-size: 1.1rem !important;
+}
