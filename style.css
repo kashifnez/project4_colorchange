@@ -5,6 +5,7 @@
     font-size: 15px;
     box-sizing: border-box;
     font-family: 'Amaranth', sans-serif;
+    margin: 2vh 1vh;
 }
 
 .generate, .btn{
@@ -17,7 +18,6 @@
 }
 body .btn{
   height: 40vh;
-  margin: 1rem;
   display: flex;
   flex-flow: column;
   align-items: center;
