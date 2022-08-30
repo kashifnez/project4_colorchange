@@ -10,4 +10,5 @@ btn.addEventListener("click", function(e) {
   
   const crnt = document.querySelector("span");
   console.log(crnt)
+  crnt.textContent = bg.style.backgroundColor;
 })
